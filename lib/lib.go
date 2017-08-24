@@ -1,12 +1,7 @@
-package lib_test
+package lib
 
-import (
-	"fmt"
-
-	"github.com/h2non/gock"
-)
+import "fmt"
 
 func Print() {
-	gock.Off()
 	fmt.Println("Hello")
 }
